@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NumbersCollection = void 0;
-class NumbersCollection {
+const sorter_1 = require("./sorter");
+class NumbersCollection extends sorter_1.Sorter {
     constructor(data) {
+        super();
         this.data = data;
     }
     // with "get", do not have to use parenth... only .length;

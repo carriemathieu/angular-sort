@@ -1,3 +1,5 @@
+import { Sorter } from "./sorter";
+
 class Node {
     // references another node or null if start of list
     next: Node | null = null;
@@ -5,7 +7,7 @@ class Node {
     constructor(public data: number) {}
 }
 
-export class LinkedList {
+export class LinkedList extends Sorter {
     // refrences another node or null if list empty
     head: Node | null = null;
 

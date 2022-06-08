@@ -1,5 +1,8 @@
-export class NumbersCollection {
+import { Sorter } from "./sorter";
+
+export class NumbersCollection extends Sorter {
     constructor(public data: number[]){
+        super();
     }
 
     // with "get", do not have to use parenth... only .length;
