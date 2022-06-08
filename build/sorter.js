@@ -2,8 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 class Sorter {
-    // constructor(public collection: number[] | string) {
-    // }
     constructor(collection) {
         this.collection = collection;
     }
